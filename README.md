@@ -1,16 +1,13 @@
-# NodeJS-ExpressJS-MYSQL CRUD app
+CRUD APP
 
-
-
-## Instructions
 
 - Download the code
 
 ```
-download and unzip the repo
+download the repo
 ```
 
-- Go into app folder
+- Go into CRUD_app folder
 
 ```
 cd into nodejs_crud folder
@@ -47,7 +44,7 @@ CREATE TABLE IF NOT EXISTS `players` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1;
 ```
 
-- If nodemon does not work, start the app by using node
+- Start the app using the below command
 
 ```
 node app.js
