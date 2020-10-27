@@ -28,7 +28,7 @@ npm install express express-fileupload body-parser mysql ejs req-flash --save
 npm install nodemon -g
 ```
 
-- Run MySQL script below to create the database and table
+- Run the below MYSQL script
 
 ```
 CREATE DATABASE socka;
@@ -45,11 +45,10 @@ CREATE TABLE IF NOT EXISTS `players` (
 
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1;
-```
-
-- If nodemon does not work, start the app by using node
 
 ```
+Start the app using the below command
+
 node app.js
 ```
 
